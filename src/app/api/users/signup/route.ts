@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
             message: "User created successfully",
             success: true,
             savedUser
-        })
+        }) 
         
     } catch (error) {
         if (error instanceof Error) {
